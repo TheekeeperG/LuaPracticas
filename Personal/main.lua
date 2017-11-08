@@ -5,7 +5,7 @@ function love.load()
     end
 
 function love.update(dt)
-    monito:update()
+    monito:update(dt)
     end
 
 function love.draw()
