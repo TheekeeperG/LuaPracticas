@@ -7,7 +7,11 @@ self= setmetatable({},meteoro)
     self.y=y
     self.w=10
     self.h=10
+    self.v=60
     return self
+end
+function meteoro:update(dt)
+self.y=self.y-self.v*dt    
 end
 
 function meteoro:draw()

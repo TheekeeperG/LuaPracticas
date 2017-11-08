@@ -11,14 +11,17 @@ function love.load()
 function love.update(dt)
    if tiempodegeneracion==20 then 
     local x=math.random(1,400)
-    local y=math.random(1,300)
-    tiempodegeneracion=20
+    local y=math.random(300,600)
+    tiempodegeneracion=40
     table.insert(mts, meteoro:new(x,y))
   
 else 
     tiempodegeneracion=tiempodegeneracion-1
     end
-   
+    for i,v in ipairs(mts) do
+    v:update(dt)
+    end
+    personaje:update(dt)
     end 
 
 function love.draw()
