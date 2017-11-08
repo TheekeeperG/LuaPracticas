@@ -1,3 +1,75 @@
+commit 2fcfece166beebac2ec28c8137db1c1acdd092e4
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Wed Nov 8 01:45:37 2017 -0600
+
+    PreBetaDeLaAlpha
+
+commit 90ef30ee46f8ca50e15e5c9fffdb63d3e419ced6
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Wed Nov 8 01:07:46 2017 -0600
+
+    TutorialCompletado
+
+commit 3210eb1fa4c5cac5ec064e51fb83385004febab2
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Wed Nov 8 00:25:27 2017 -0600
+
+    animaciones con cuadraditos
+
+commit ea29274300ce5577c1a46d5cc39d404fa4deba71
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Wed Nov 8 00:16:24 2017 -0600
+
+    Metoros con timing
+
+commit 1b74e3549a4f42017c891c3e387e143798459280
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Wed Nov 8 00:03:22 2017 -0600
+
+    Agregar meteoros
+
+commit d19b5bddad7d39adaca1ed12255892081f5db1fe
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Tue Nov 7 23:44:33 2017 -0600
+
+    Inicializacion y dibujo del personaje
+
+commit dab2ebf4aafd78a62c9e551cc078b0720c8de25d
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Tue Nov 7 23:25:18 2017 -0600
+
+    Movimiento de monito
+
+commit 572ff73d8969ff6caccd7674015c1c6cd219ae59
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Tue Nov 7 23:08:37 2017 -0600
+
+    Cargar imagen, require
+
+commit 5a34ef19543d0bbb18652974e41325bd7629e5ca
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Tue Nov 7 22:51:09 2017 -0600
+
+    Dibujar cuadrados ciclo
+
+commit 8565f62a7d4e90d0bafb77568cfd4e151ec16c1a
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Tue Nov 7 22:36:26 2017 -0600
+
+    Movimiento con flachas y colision
+
+commit 2b61039c927b960505754f6297016a892904b683
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Tue Nov 7 22:06:30 2017 -0600
+
+    Movimiento rectangulo con flechas
+
+commit 37ee933d94e7063039e705fe8ac68a514006414f
+Author: Jorge <Gallardo.Jorge4@gmail.com>
+Date:   Tue Nov 7 21:42:03 2017 -0600
+
+    Hola mundo
+
 commit c93a2bd9489fc445646f78c7ba3c01996c23a370
 Author: Jorge <Gallardo.Jorge4@gmail.com>
 Date:   Tue Nov 7 21:35:47 2017 -0600
