@@ -6,6 +6,7 @@ function love.load()
     personaje:init(100,100)
     mts={}
     tiempodegeneracion=20
+    txt="col"
     end
 
 function love.update(dt)
@@ -21,6 +22,14 @@ else
     for i,v in ipairs(mts) do
     v:update(dt)
     end
+    for i,v in ipairs(mts) do
+    if colision(personaje, v) then 
+           txt="col"
+            break
+        else
+            txt="no col"
+        end
+    end
     personaje:update(dt)
     end 
 
@@ -29,5 +38,14 @@ function love.draw()
     for i,v in ipairs(mts) do
     v:draw()
     end
+    love.graphics.print(txt)
+    end
+function colision(a,b) 
+    return a.x<b.x+b.w and
+        a.x+a.w>b.x and
+        a.y<b.y+b.h and 
+        a.y + a.h>b.y 
+        
+        
     
     end
