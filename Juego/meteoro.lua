@@ -1,13 +1,13 @@
 meteoro={}
 meteoro.__index=meteoro
 
-function meteoro:new(x,y)
+function meteoro:new(x,y,diff)
 self= setmetatable({},meteoro)    
     self.x=x
     self.y=y
     self.w=10
     self.h=10
-    self.v=60
+    self.v=60+diff
     return self
 end
 function meteoro:update(dt)
